@@ -1,0 +1,123 @@
+body, h1,h2, h3, ul, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header{
+    background-color: #4a5ecf;
+    border-bottom: 5px solid coral;
+}
+
+#header h1{
+    color: #fff;
+    /* font-family: 'Times New Roman', Times, serif; */
+    padding: 15px;
+    display: inline-block;
+}
+
+#header .logo {
+    color: coral;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    /* font-family: 'Times New Roman', Times, serif; */
+    padding: 25px 15px;
+    display: inline-block;
+}
+
+.navbar a:hover{
+    color: crimson;
+}
+
+ul.navbar  li {
+    display: inline;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+
+#banner {
+    height: 60vh;
+    background-image: url(../../../webapp/WEB-INF/images/banner2.jpg);
+    background-size: cover;
+    background-position: center -250px;
+    text-align: center;
+    color: rgb(9, 25, 247);
+    /* font-family: 'Times New Roman', Times, serif; */
+
+}
+
+#banner h1{
+    font-size: 56px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    color: rgb(255, 17, 0);
+}
+#banner p{
+    color: rgb(17, 0, 255);
+    font-size: 25px;
+}
+
+#newsletter{
+    background-color:#4a5ecf ;
+    color: white;
+    padding: 10px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+#newsletter .left{
+    float: left;
+    padding-top: 2px;
+}
+
+#newsletter .right{
+    float:right;
+}
+
+#newsletter input {
+    padding: 5px;
+}
+
+.button {
+    padding: 7px 15px;
+    background-color: coral;
+    color: #fff;
+    margin-left: 15px;
+}
+
+#courses {
+    padding: 30px 0;
+}
+
+.box {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.box img {
+    max-width: 50%;
+    width: 120px;
+
+}
+.clr {
+    clear: both;
+}
+
+#footer {
+    padding: 10px 0;
+    text-align: center;
+    background-color: rgb(252, 110, 67);
+    margin-top: 30px;
+    color: #fff;
+}
